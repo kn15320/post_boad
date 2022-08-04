@@ -1,0 +1,94 @@
+@media screen and (max-width:959px){
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    margin: 0 auto;
+    padding: 40px;
+
+}
+
+#header{
+    flex-direction: flex;
+    border: solid 1px;
+    width: 842px;
+    height: 1425px;
+    padding: 10px;
+}
+
+.wrap{
+    width: 820px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.top{
+    border: solid 1px #000;
+    text-align: center;
+    width: 245px; 
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+.waku{
+    float: right;
+    text-align: center;
+    border: solid 1px #000;
+    width: 245px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#article{
+    border: solid 1px #000;
+    width: 820px;
+    height: 500px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    overflow-y: scroll; 
+}
+
+/*モーダル表示*/
+.modal_bg{
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: absolute;
+    padding: 20px;
+    left: 50px;
+    top: 50px;
+    width: 80%;
+}
+
+.modal_content{
+    display: none;
+    background:#fff;
+    text-align: center;
+    height: 80vh;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+    width: 80%
+}
+
+.error{
+    color: red;
+}
+
+}
